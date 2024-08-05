@@ -33,6 +33,7 @@
     <title>Zomato Landing Page Clone</title>
   </head>
   <body>
+    <!-- This is for hero section -->
     <section class="hero__section">
       <header>
         <nav class="navbar">
@@ -52,12 +53,13 @@
         <img src="images/heroSectionLogo.png" alt="ZOMATO" class="hero__section_logo" />
         <h1 class="hero__section_title">Discover the best food and drinks in Kundapura</h1>
         <div class="hero__section_input_container">
-          <input class="input_container_location" type="text" placeholder="Kundapura" />
+          <input class="input_container_location" type="text" placeholder="Kundapura-Koteshwar" />
           <input class="input_container_search" type="text" placeholder="Search for a restaurent,cuisine or a dish" />
         </div>
       </div>
     </section>
 
+    <!-- This is for cards -->
     <section class="container we__offer">
       <div class="we__offer_card">
         <img src="images/item1.png" alt="card 1 image">
@@ -82,5 +84,78 @@
       </div>
       
     </section>
+
+    <!-- This is for collections -->
+     <section class="container collections">
+      <h1>Collections</h1>
+      <div class="sub__heading_container">
+        <span>Explore curated lists of restaurents, cafes, pubs in Kundapura-Koteshwar </span>
+        <span>All collections in Kundapura-koteshwar</span>
+      </div>
+      <div class="collections_card_container">
+        <div class="card card1">
+          <div class="overlay"></div>
+          <div class="content">
+            <h4>Live cricket screening</h4>
+            <span>56 places </span>
+          </div>
+        </div>
+        <div class="card card2">
+          <div class="overlay"></div>
+          <div class="content">
+            <h4>Kundapura Beach Restaurents</h4>
+            <span>20 places </span>
+          </div>
+        </div>
+        <div class="card card3">
+          <div class="overlay"></div>
+          <div class="content">
+            <h4>Newly opened shops</h4>
+            <span>30 places </span>
+          </div>
+        </div>
+        <div class="card card4">
+          <div class="overlay"></div>
+          <div class="content">
+            <h4>Trending pubs near me</h4>
+            <span>16 places </span>
+          </div>
+        </div>
+      </div>
+     </section>
+
+     <!-- This is for get the app section -->
+      <section class="container get__the_app">
+        <div class="semiContainer">
+         <div class="left">
+           <img src="./images/mobileBanner.png" alt="Mobile banner" />
+         </div>
+         <div class="right">
+            <h1>Get the Zomato App</h1>
+            <p>We will send you a link, open it and download in your phone</p>
+            <div class="radio__button_container">
+             <div>
+              <input type="radio" id="email" name="download_app"/>
+               <label for="email" style="font-size:14px;">Email</label>
+              </div>
+              <div>
+               <input type="radio" id="phone" name="download_app"/>
+                <label for="phone" style="font-size:14px;">Phone</label>
+              </div>
+            </div>
+            <div class="input_container">
+              <input type="text" placeholder="Email"/>
+              <button>Share App Link</button>
+            </div>
+            <div class="download__app_container">
+              <h5>Download app from</h5>
+              <div>
+                <img src="./images/appleStore.png" alt="Aplle store" />
+                <img src="./images/playStore.png" alt="Play store" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
   </body>
 </html>
