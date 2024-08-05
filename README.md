@@ -1,3 +1,3 @@
 # Zomato-clone
-Ruthvij
-Zomato clone using HTML, CSS and Css
+Zomato clone using HTML, CSS and JavaScript
+First project on full stack development
