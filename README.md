@@ -1,3 +1,5 @@
-# Zomato-clone
-Zomato clone using HTML, CSS and JavaScript
-First project on full stack development
+# This is my zomato landing page clone
+
+## Done with first commit.
+
+## Set Up created here for our appln
